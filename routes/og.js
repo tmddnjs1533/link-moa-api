@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
   },err=> {
     //console.log("에러")
     //console.log(err);
-    res.send(err);
+    res.send(err.code || JSON.stringify(err));
   })
 });
 
