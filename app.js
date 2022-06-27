@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 let corsOptions = {
-    origin: 'https://62b979d1badacb02bb022b34--rococo-dasik-f31091.netlify.app/',
+    origin: 'https://62b979d1badacb02bb022b34--rococo-dasik-f31091.netlify.app',
     credentials: true
 }
 
